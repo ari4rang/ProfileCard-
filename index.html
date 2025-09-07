@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>profile card</title>
+    <style>
+    body,html{
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .cont{
+        height: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    .box{
+        background-color: #333;
+        text-align: center;
+        border: solid , 2px , gold;
+        border-radius: 20px;
+        padding: 100px 100px;
+    }
+    .box:hover{
+        transform:scale(1.03);
+    }
+
+    #profile{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px , solid , Gold;
+     }
+
+    button{
+        background-color: blueviolet;
+        height: 50px;
+        width: 150px;
+        color: aliceblue;
+        border: 2px , solid , gold;
+        border-radius: 20px;
+     }
+      button:hover{
+        transform:scale(1.03);
+    }
+     h2{
+        color: aliceblue;
+        font-size: 200%;
+     }
+
+     #l,#G,#X{
+        border-radius: 50%;
+        border: 2px, solid , gold;}
+
+     #l:hover,#G:hover,#X:hover{
+      transform: scale(1.1);
+      }
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <div class="box">
+            <h2>Arpita Chaubey</h2>
+            <img  id="profile" src="./images/IMG-20250905-WA0006[1].jpg" alt="profile photo"><br><br><br>
+            <button> View  Portfolio </button>
+            <button> View  Major Projects </button> <br> <br>
+            <div class="logos">
+            <img id="l" src="./images/317750_linkedin_icon.png" alt="linkedin">
+            <img id="X" src="./images/5296516_tweet_twitter_twitter logo_icon.png" alt="X img">
+            <img id="G" src="./images/1221585_github_logo_media_social_icon.png" alt="GitHub">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
